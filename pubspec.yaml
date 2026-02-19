@@ -1,0 +1,53 @@
+name: real_estate_crm
+description: A cross-platform Real Estate CRM with Glassmorphism design, local-first storage, CSV import, and advanced lead management.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Database
+  sqflite: ^2.3.0
+  path: ^1.8.3
+
+  # CSV Import
+  csv: ^6.0.0
+  file_picker: ^6.1.1
+
+  # URL launcher (Zillow links)
+  url_launcher: ^6.2.2
+
+  # Icons
+  font_awesome_flutter: ^10.7.0
+
+  # Local notifications (Action Plans / Follow-up automation)
+  flutter_local_notifications: ^16.3.0
+
+  # State management
+  provider: ^6.1.1
+
+  # UUID generation
+  uuid: ^4.3.3
+
+  # Date/time formatting
+  intl: ^0.19.0
+
+  # Path provider
+  path_provider: ^2.1.2
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
